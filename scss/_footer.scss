@@ -1,0 +1,47 @@
+footer {
+    background-color: rgb(34, 32, 32);
+    text-align: center;
+    border-top: 2px black solid;
+    padding: 5px;
+    margin-top: 10px;
+
+    .estiloFooter {
+        display: flex;
+        justify-content: space-evenly;
+
+        div {
+            display: flex;
+            flex-direction: column;
+
+            h2 {
+                color: white;
+                padding: 10px;
+                text-decoration: underline;
+            }
+
+            a {
+                color: rgb(240, 232, 232);
+                text-decoration: none;
+                text-transform: $mayuscula;
+            }
+
+            p {
+                color: rgb(240, 232, 232);
+                text-decoration: none;
+                text-transform: $mayuscula;
+            }
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+
+    .derechos {
+        text-align: center;
+        padding: 5px;
+        color: white;
+        margin-top: 30px;
+        background-color:$color--principal
+    }
+}

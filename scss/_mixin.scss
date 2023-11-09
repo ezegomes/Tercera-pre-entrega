@@ -1,0 +1,24 @@
+@mixin botonContacto {
+    border-radius: 5px;
+    background-color: rgb(166, 248, 0);
+    color: $color--principal;
+    font-size: 22px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin: 10px;
+    color: $color--principal
+}
+
+.botonContacto {
+    @include botonContacto;
+}
+
+@mixin estiloHeader {
+    text-transform: uppercase;
+    margin: 10px;
+    color: $color--principal
+}
+
+.estiloHeader{
+    @include estiloHeader
+}

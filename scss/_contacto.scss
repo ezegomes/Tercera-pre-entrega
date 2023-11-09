@@ -1,0 +1,46 @@
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 200px;
+
+    .ubicacionContacto {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    iframe {
+        width: 40vw;
+    }
+
+    form {
+        width: 30vw;
+
+        .campoTexto {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 100%;
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        .botonForm {
+            width: auto;
+            padding: 10px 30px;
+            color: white;
+            background-color: $color--principal;
+            border-radius: 5px;
+            font-size: 15px;
+            display: flex;
+            margin-left: 40%;
+        }
+
+        .tituloForm {
+            text-align: center;
+        }
+    }
+}

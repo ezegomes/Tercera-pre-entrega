@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 5px;
+
+    div {
+        div {
+            .btn {
+                color: white;
+                background-color:$color--principal;
+                border: $color--principal;
+
+                &:hover {
+                    background-color: rgb(45, 42, 42);
+                }
+            }
+
+            .card-text {
+                font-weight: bold;
+            }
+        }
+    }
+
+    .row {
+        margin: auto;
+
+        .card-body {
+
+            .card-title {
+                color: rgb(28, 28, 108);
+                cursor: pointer;
+                text-transform: fuente--mayuscula;
+
+                &:hover {
+                    color: rgb(68, 68, 249)
+                }
+            }
+        }
+    }
+}

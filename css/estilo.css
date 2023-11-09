@@ -1,231 +1,198 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-/* HEADER */
 .header {
-    border-bottom: 2px black solid;
-    font-family: Arial, Helvetica, sans-serif;
-    position: sticky;
-    top: 0;
-    z-index: 2;
-    background-color: rgb(64, 165, 64);
-    justify-content: start;
+  border-bottom: 2px black solid;
+  font-family: Arial, Helvetica, sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: rgb(64, 165, 64);
+  justify-content: start;
+}
+.header nav {
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+}
+.header nav li {
+  list-style-type: none;
+  display: inline;
+  font-size: 22px;
+}
+.header img {
+  display: flex;
+  align-items: center;
+  width: 90px;
+  margin-right: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.header h1 {
+  color: black;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
-.logoTitulo {
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    width: 90px;
-    margin-right: 10px;
-    margin-left: 5px;
-    cursor: pointer;
-}
-
-h1 {
-    color: black;
-    font-size: 40px;
-    text-transform: uppercase;
-}
-
-li {
-    list-style-type: none;
-    display: inline;
-    font-size: 22px;
-
-}
-
-a {
-    text-transform: uppercase;
-    margin: 10px;
-}
-
-.estiloHeader {
-    color: black;
-}
-
-.navHeader {
-    display: flex;
-    align-items: end;
-    justify-content: space-around;
-}
-
-.botonContacto {
-    border-radius: 5px;
-    background-color: rgb(166, 248, 0);
-    color: black;
-    font-size: 22px;
-    padding: 10px 20px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 main {
-    margin: 5px;
+  margin: 5px;
 }
-
-
-.card-title {
-    color: rgb(28, 28, 108);
-    cursor: pointer;
-    text-transform: uppercase;
-
+main div div .btn {
+  color: white;
+  background-color: black;
+  border: black;
 }
-
-.card-body h5:hover {
-    color: rgb(68, 68, 249);
+main div div .btn:hover {
+  background-color: rgb(45, 42, 42);
 }
-
-.card-text {
-    font-weight: bold;
+main div div .card-text {
+  font-weight: bold;
 }
-
-.btn {
-    color: white;
-    background-color: black;
-    border: black;
-
+main .row {
+  margin: auto;
 }
-
-.row {
-    margin: auto;
+main .row .card-body .card-title {
+  color: rgb(28, 28, 108);
+  cursor: pointer;
+  text-transform: fuente--mayuscula;
 }
-
-.card-body a:hover {
-    background-color: rgb(45, 42, 42);
+main .row .card-body .card-title:hover {
+  color: rgb(68, 68, 249);
 }
 
 .slide img {
-    height: 60vh;
+  height: 60vh;
 }
 
 .tamImagen {
-    height: 15vh;
-    width: 100vw;
-    object-fit: cover;
+  height: 15vh;
+  width: 100vw;
+  object-fit: cover;
 }
 
-/* FOOTER */
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 200px;
+}
+section .ubicacionContacto {
+  text-align: center;
+  margin-top: 60px;
+}
+section iframe {
+  width: 40vw;
+}
+section form {
+  width: 30vw;
+}
+section form .campoTexto {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+section form textarea {
+  height: 150px;
+}
+section form .botonForm {
+  width: auto;
+  padding: 10px 30px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  font-size: 15px;
+  display: flex;
+  margin-left: 40%;
+}
+section form .tituloForm {
+  text-align: center;
+}
+
 footer {
-    background-color: rgb(34, 32, 32);
-    text-align: center;
-    border-top: 2px black solid;
-    padding: 5px;
-    margin-top: 10px;
+  background-color: rgb(34, 32, 32);
+  text-align: center;
+  border-top: 2px black solid;
+  padding: 5px;
+  margin-top: 10px;
+}
+footer .estiloFooter {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .estiloFooter div {
+  display: flex;
+  flex-direction: column;
+}
+footer .estiloFooter div h2 {
+  color: white;
+  padding: 10px;
+  text-decoration: underline;
+}
+footer .estiloFooter div a {
+  color: rgb(240, 232, 232);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+footer .estiloFooter div p {
+  color: rgb(240, 232, 232);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+footer .estiloFooter div:hover {
+  color: white;
+}
+footer .derechos {
+  text-align: center;
+  padding: 5px;
+  color: white;
+  margin-top: 30px;
+  background-color: black;
 }
 
-.estiloFooter {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.estiloFooter div {
-    display: flex;
-    flex-direction: column;
-}
-
-.estiloFooter h2 {
-    color: white;
-    padding: 10px;
-    text-decoration: underline;
-}
-
-.estiloFooter a {
-    color: rgb(240, 232, 232);
-    text-decoration: none;
-}
-
-.estiloFooter p {
-    color: rgb(240, 232, 232);
-    text-decoration: none;
-}
-
-.estiloFooter a:hover {
-    color: white;
-}
-
-.derechos {
-    text-align: center;
-    padding: 5px;
-    color: white;
-    margin-top: 30px;
-    background-color: black;
-}
-
-/* CONTACTO */
-.contacto {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-left: 200px;
-
-}
-
-form {
-    width: 30vw;
-}
-
-.campoTexto {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 100%;
-}
-
-textarea {
-    height: 150px;
-}
-
-.botonForm {
-    width: auto;
-    padding: 10px 30px;
-    color: white;
-    background-color: black;
-    border-radius: 5px;
-    font-size: 15px;
-    margin-left: 30%;
-}
-
-.ubicacionContacto {
-    text-align: center;
-    margin-top: 60px;
-}
-
-.tituloForm {
-    text-align: center;
-}
-
-.mapa {
-    width: 40vw;
-}
-
-/* @medias queries */
 @media (max-width: 520px) {
-    h1 {
-        display: none;
-    }
+  h1 {
+    display: none;
+  }
 }
-
 @media (max-width: 991px) {
-    .botonContacto {
-        background-color: rgb(64, 165, 64);
-    }
-
-    li {
-        text-align: center;
-    }
+  li {
+    text-align: center;
+  }
+}
+@media (max-width: 1023px) {
+  .estiloFooter {
+    flex-direction: column;
+    text-align: center;
+  }
+  section {
+    flex-direction: column;
+    margin-right: 150px;
+  }
+}
+.botonContacto {
+  border-radius: 5px;
+  background-color: rgb(166, 248, 0);
+  color: black;
+  font-size: 22px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin: 10px;
+  color: black;
 }
 
-@media (max-width:1023px) {
-    .estiloFooter {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .contacto {
-        flex-direction: column;
-    }
+.estiloHeader {
+  text-transform: uppercase;
+  margin: 10px;
+  color: black;
 }
+
+/*# sourceMappingURL=estilo.css.map */
