@@ -62,6 +62,45 @@ a {
     padding: 10px 20px;
 }
 
+main {
+    margin: 5px;
+}
+
+
+.card-title {
+    color: rgb(28, 28, 108);
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.card-body h5:hover {
+    color: rgb(68, 68, 249);
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    border: black;
+
+}
+
+.row {
+    margin: auto;
+}
+
+.card-body a:hover {
+    background-color: rgb(45, 42, 42);
+}
+
+.slide img {
+    height: 60vh;
+}
+
 /* FOOTER */
 footer {
     background-color: rgb(34, 32, 32);
@@ -109,6 +148,54 @@ footer {
     background-color: black;
 }
 
+/* CONTACTO */
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 200px;
+
+}
+
+form {
+    width: 30vw;
+}
+
+.campoTexto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+textarea {
+    height: 150px;
+}
+
+.botonForm {
+    width: auto;
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 30%;
+}
+
+.ubicacionContacto {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.tituloForm {
+    text-align: center;
+}
+
+.mapa {
+    width: 40vw;
+}
+
 /* @medias queries */
 @media (max-width: 520px) {
     h1 {
@@ -120,9 +207,10 @@ footer {
     .botonContacto {
         background-color: rgb(64, 165, 64);
     }
-        li{
-            text-align: center;
-        }
+
+    li {
+        text-align: center;
+    }
 }
 
 @media (max-width:1023px) {
@@ -132,6 +220,6 @@ footer {
     }
 
     .contacto {
-        flex-direction: column; 
+        flex-direction: column;
     }
 }
