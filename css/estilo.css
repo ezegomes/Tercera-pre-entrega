@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+.header {
+    border-bottom: 2px black solid;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: rgb(64, 165, 64);
+    justify-content: start;
+}
+
+.logoTitulo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 90px;
+    margin-right: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    font-size: 22px;
+
+}
+
+a {
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.estiloHeader {
+    color: black;
+}
+
+.navHeader {
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.botonContacto {
+    border-radius: 5px;
+    background-color: rgb(166, 248, 0);
+    color: black;
+    font-size: 22px;
+    padding: 10px 20px;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(34, 32, 32);
+    text-align: center;
+    border-top: 2px black solid;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.estiloFooter {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.estiloFooter div {
+    display: flex;
+    flex-direction: column;
+}
+
+.estiloFooter h2 {
+    color: white;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.estiloFooter a {
+    color: rgb(240, 232, 232);
+    text-decoration: none;
+}
+
+.estiloFooter p {
+    color: rgb(240, 232, 232);
+    text-decoration: none;
+}
+
+.estiloFooter a:hover {
+    color: white;
+}
+
+.derechos {
+    text-align: center;
+    padding: 5px;
+    color: white;
+    margin-top: 30px;
+    background-color: black;
+}
+
+/* @medias queries */
+@media (max-width: 520px) {
+    h1 {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .botonContacto {
+        background-color: rgb(64, 165, 64);
+    }
+        li{
+            text-align: center;
+        }
+}
+
+@media (max-width:1023px) {
+    .estiloFooter {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contacto {
+        flex-direction: column; 
+    }
+}
