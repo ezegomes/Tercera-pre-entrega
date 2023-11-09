@@ -101,6 +101,12 @@ main {
     height: 60vh;
 }
 
+.tamImagen {
+    height: 15vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
 /* FOOTER */
 footer {
     background-color: rgb(34, 32, 32);
