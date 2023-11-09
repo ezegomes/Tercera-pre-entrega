@@ -132,7 +132,7 @@ footer .estiloFooter div {
   display: flex;
   flex-direction: column;
 }
-footer .estiloFooter div h2 {
+footer .estiloFooter div h3 {
   color: white;
   padding: 10px;
   text-decoration: underline;
