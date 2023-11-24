@@ -2,45 +2,52 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 200px;
 
-    .ubicacionContacto {
-        text-align: center;
-        margin-top: 60px;
-    }
+    div {
+        .ubicacionContacto {
+            text-align: center;
+            margin-top: 60px;
+        }
 
-    iframe {
-        width: 40vw;
+        iframe {
+            width: 40vw;
+        }
     }
 
     form {
         width: 30vw;
 
-        .campoTexto {
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 10px;
-            padding: 10px;
-            width: 100%;
-        }
+        div {
+            .botonForm {
+                background-color: black;
+                color: white;
+                width: 100%;
+                padding: 10px;
+                border-radius: 5px;
 
-        textarea {
-            height: 150px;
-        }
+                &:hover {
+                    background-color: rgb(45, 42, 42);
+                }
+            }
 
-        .botonForm {
-            width: auto;
-            padding: 10px 30px;
-            color: white;
-            background-color: $color--principal;
-            border-radius: 5px;
-            font-size: 15px;
-            display: flex;
-            margin-left: 40%;
-        }
+            .campoTexto {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 10px;
+                padding: 10px;
+                width: 100%;
+            }
 
-        .tituloForm {
-            text-align: center;
+            textarea {
+                height: 15vh;
+            }
+
+            .tituloForm {
+                text-align: center;
+            }
+
+
+
         }
     }
 }

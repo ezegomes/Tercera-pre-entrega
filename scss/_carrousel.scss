@@ -1,5 +1,62 @@
-.slide {
-    img {
-        height: 60vh;
+div {
+    div {
+
+        .imgUno {
+            height: 75vh;
+            background-image: url(https://t1.uc.ltmcdn.com/es/posts/6/9/5/tipos_de_deportes_con_raqueta_52596_orig.jpg);
+            text-align: center;
+
+            h2 {
+                padding: 0 50px;
+                font-size: 50px;
+                font-weight: bold;
+                color: white;
+                position: absolute;
+                top: 35vh;
+            }
+        }
+
+        .imgDos {
+            background-image: url(https://www.onlytenis.com/blog/wp-content/uploads/2021/04/ropa-de-deporte-para-el-tenis.jpg);
+            height: 75vh;
+            text-align: center;
+
+            h2 {
+                padding: 0 50px;
+                font-size: 50px;
+                font-weight: bold;
+                color: white;
+                position: absolute;
+                top: 35vh;
+            }
+        }
+
+        .imgTres {
+            background-image: url(https://s3.abcstatics.com/media/bienestar/2019/08/02/tenis-abecedario-kgNF--1248x698@abc.jpg);
+            height: 75vh;
+            text-align: center;
+
+            h2 {
+                padding: 0 50px;
+                font-size: 50px;
+                font-weight: bold;
+                color: white;
+                position: absolute;
+                top: 35vh;
+            }
+        }
+
+        background-size: cover;
+
+        .carousel-item::before {
+            content: "";
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+        }
     }
 }

@@ -6,37 +6,46 @@
 main {
     margin: 5px;
 
-    div {
-        div {
-            .btn {
-                color: white;
-                background-color:$color--principal;
-                border: $color--principal;
-
-                &:hover {
-                    background-color: rgb(45, 42, 42);
-                }
+    div {      
+            h2 {
+                font-size: 40px;
+                font-weight: bold;
+                color: rgb(62, 55, 55);
             }
 
-            .card-text {
-                font-weight: bold;
+        div {
+            div {
+                .btn {
+                    color: white;
+                    background-color: $color--principal;
+                    border: $color--principal;
+
+
+                    &:hover {
+                        background-color: rgb(45, 42, 42);
+                    }
+                }
             }
         }
+
+        .card-text {
+            font-weight: bold;
+        }
     }
+}
 
-    .row {
-        margin: auto;
+.row {
+    margin: auto;
 
-        .card-body {
+    .card-body {
 
-            .card-title {
-                color: rgb(28, 28, 108);
-                cursor: pointer;
-                text-transform: fuente--mayuscula;
+        .card-title {
+            color: rgb(28, 28, 108);
+            cursor: pointer;
+            text-transform: fuente--mayuscula;
 
-                &:hover {
-                    color: rgb(68, 68, 249)
-                }
+            &:hover {
+                color: rgb(69, 69, 186);
             }
         }
     }

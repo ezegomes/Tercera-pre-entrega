@@ -19,6 +19,13 @@
 
     section {
         flex-direction: column;
-        margin-right: 150px;
+
+        form {
+            width: 60vw;
+        }
+
+        .mapa {
+            width: 100vw;
+        }
     }
 }
